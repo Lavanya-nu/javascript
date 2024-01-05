@@ -1,0 +1,29 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#counter
+{
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#counter #one
+{
+    color:darkolivegreen;
+}
