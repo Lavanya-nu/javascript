@@ -1,0 +1,67 @@
+body{
+    background-color:aliceblue;
+    
+}
+#mlib
+{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:50px;
+    gap:10px;
+   
+}
+#mlib title{
+    color:crimson;
+}
+.movie
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    height:500px;
+    width:300px;
+    /* border:1px solid black; */
+    border-radius: 5px;
+    /* box-shadow:5px 5px black; */
+    transition: all 1s ease;
+}
+.movie img{
+    height:330px;
+    width:290px;
+    border-radius: 5px;
+}
+.movie:hover{
+    scale:1.02;
+}
+h1
+{
+    background-image: radial-gradient(#8c78c4, #d77b69);
+    color: transparent;
+    /* background-clip: text; */
+   /* -webkit-background-clip: text; */
+    color:black;
+    
+}
+a
+{
+    text-decoration: none;
+}
+button
+{
+    height:30px;
+    width:60px;
+    border-radius:5px ;
+    border-color: darkcyan;
+}
+button:hover
+{
+    background-color: cadetblue;
+    scale:1.2;
+
+}
+h3
+{
+    color:crimson;
+}
